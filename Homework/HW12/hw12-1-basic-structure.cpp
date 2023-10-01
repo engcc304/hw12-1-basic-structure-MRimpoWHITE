@@ -78,7 +78,7 @@ int main(){
 
     for (int i = 0; i < 2; i++ , personN++)
     {
-        printf( "\n--| Person %c Information |-- \n" , personN ) ;
+        printf( "--| Person %c Information |--\n" , personN ) ;
         printf( "Name : %s (%c)\n" , pi[i].name , pi[i].sex ) ;
         printf( "Age : %d years old\n" , pi[i].age ) ;
         printf( "Score : %.2f points\n" , pi[i].score ) ;  
